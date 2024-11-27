@@ -1,0 +1,15 @@
+@mixin media-sm {
+    @media screen and (min-width: map.get($media, "small")) {
+        @content;
+    }
+}
+@mixin media-sm-md {
+    @media screen and (min-width: map.get($media, "sm-md")) {
+        @content;
+    }
+}
+@mixin media-md {
+    @media screen and (min-width: map.get($media, "medium")) {
+        @content;
+    }
+}
