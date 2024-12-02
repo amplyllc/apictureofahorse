@@ -1,6 +1,20 @@
 ---
 layout: "layouts/base.njk"
+name: home
 home: true
 ---
 
+<button onClick="displayImage()">
+    <p class="clickme">Do NOT click that horse!</p>
+    <div id="imgDiv">
+        <picture class="img">
+            <source srcset="/assets/img/{{ img }}" media="(min-width: 600px)"> 
+            <img id="horse" src="/assets/img/{{ imgM }}" alt="{{ imgAlt }}" loading=“lazy” decoding=“async”> 
+        </picture>
+    </div>
+</button>
+
+<footer>
+    <p><a href="/submit">Submit your picture of a horse</a></p>
+</footer>
 

@@ -5,15 +5,17 @@
     </head>
     <body>
           
-        <main>
-
-           <img src="/assets/img/horse.png" alt="A picture of a horse">
-    
+        <main class="{{ name }}">
+            {{ content | safe }}
         </main>
 
-        <footer>
-            <p><a href="#">Created with love</a></p>
-        </footer>
+        <div id="noscript">
+            <p>Noscript Error: Please enable javascript</p>
+        </div>
+
+        {% if (home) %}
+        <script src="/assets/js/display-image.js"></script>
+        {% endif %}
 
     </body>
 </html>
