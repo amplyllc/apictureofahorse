@@ -4,8 +4,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-    <title>{{title}} | Amply</title>
+    <title>{{ title }} | {{ site.name }}</title>
 
+    <link rel="stylesheet" href="/assets/css/critical.min.css">
     <link rel="stylesheet" href="/assets/css/main.min.css">
 
 </head>
@@ -14,9 +15,9 @@
     <main>
        <section id="message">
             <div class="container">
-                <h1>{{title}}</h1>
-                <p>{{description}}</p>
-                <a class="button default rounded secondary" href="https://amply.llc/">&larr; Return home</a>
+                <h1>{{ title }}</h1>
+                <p>{{ description }}</p>
+                <button onclick="parent.location='{{ site.url }}'">&larr; Return home</button>
             </div>
         </section>
     </main>

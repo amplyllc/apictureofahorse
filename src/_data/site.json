@@ -1,9 +1,10 @@
 {
-    "name": "A picture of a horse",
+    "name": "Apictureofahorse.com",
+    "description": "Literally just a picture of a horse. Just don't click it...",
     "url": "https://apictureofahorse.com",
-    "socialImg": "/assets/img/logo.png",
+    "color": "#6e412a",
     "authorName": "Amply LLC",
     "authorUrl": "https://amply.llc",
-    "description": "Literally just a picture of a horse.",
-    "favicon": "https://apictureofahorse.com/assets/favicon.svg"
+    "favicon": "https://apictureofahorse.com/assets/favicon.svg",
+    "socialImg": "/assets/img/logo.png"
 }
