@@ -2,6 +2,7 @@ node_modules
 public
 
 .scss
+scss
 
 # secrets and errors
 .env
