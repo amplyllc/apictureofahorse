@@ -8,7 +8,12 @@ const imageArray = [
 	"/assets/img/horse7",
 	"/assets/img/horse8",
 	"/assets/img/horse9",
-	"/assets/img/horse10"
+	"/assets/img/horse10",
+	"/assets/img/horse11",
+	"/assets/img/horse12",
+	"/assets/img/horse13",
+	"/assets/img/horse14",
+	"/assets/img/horse15"
 ];
 
 const image = document.querySelector("img");
